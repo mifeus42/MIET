@@ -1,2 +1,3 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
-C:\Users\User\Documents\GitHub\MPI\Labs\x64\Debug\Lab6.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+﻿  task_6.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\User\Documents\GitHub\MIET\MPI\Labs\x64\Debug\Lab6.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
