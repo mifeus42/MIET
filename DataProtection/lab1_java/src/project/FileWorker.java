@@ -30,12 +30,9 @@ public class FileWorker {
     }
 
     public void encodeFile(int[] key){
-        FileOutputStream outEncodeFile = null;
-        RandomAccessFile randomAccessFile = null;
-        try {
-            File encodeFile = new File("src\\resources\\encode_"+file.getName().replaceFirst("[.][^.]+$", ""));
-            outEncodeFile = new FileOutputStream(encodeFile);
-            randomAccessFile =new RandomAccessFile(file, "r");
+        File encodeFile = new File("src\\resources\\encode_" + file.getName().replaceFirst("[.][^.]+$", ""));
+        try(FileOutputStream outEncodeFile = new FileOutputStream(encodeFile);
+            RandomAccessFile randomAccessFile  = new RandomAccessFile(file, "r")) {
             for (int numberKey : key) {
                 randomAccessFile.seek(numberKey);
                 int counter = 0;
@@ -53,29 +50,14 @@ public class FileWorker {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        finally {
-            try {
-                if(outEncodeFile!=null){
-                    outEncodeFile.close();
-                }
-                if(randomAccessFile!=null){
-                    randomAccessFile.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
 
     }
 
     public void decodeFile(int[] key) {
-        RandomAccessFile randomAccessFileEncode = null;
-        FileOutputStream foutDecode = null;
-        try {
-            File encodeFile = new File("src\\resources\\encode_" + file.getName().replaceFirst("[.][^.]+$", ""));
-            File decodeFile = new File("src\\resources\\decode_" + file.getName().replaceFirst("[.][^.]+$", ""));
-            randomAccessFileEncode = new RandomAccessFile(encodeFile, "r");
-            foutDecode = new FileOutputStream(decodeFile);
+        File encodeFile = new File("src\\resources\\encode_" + file.getName().replaceFirst("[.][^.]+$", ""));
+        File decodeFile = new File("src\\resources\\decode_" + file.getName().replaceFirst("[.][^.]+$", ""));
+        try (RandomAccessFile randomAccessFileEncode = new RandomAccessFile(encodeFile, "r");
+             FileOutputStream foutDecode = new FileOutputStream(decodeFile)){
             long NumberOfLines = encodeFile.length()/key.length;
             byte[] buffer = new byte[key.length];
 
@@ -94,17 +76,6 @@ public class FileWorker {
             System.out.println("File was decoding");
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                if (randomAccessFileEncode != null) {
-                    randomAccessFileEncode.close();
-                }
-                if (foutDecode != null) {
-                    foutDecode.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 

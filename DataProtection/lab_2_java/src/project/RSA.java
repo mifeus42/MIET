@@ -57,6 +57,11 @@ public class RSA {
         else return (a * binPow(a, b - 1, m)) % m;
     }
 
+    public void printKey()
+    {
+        key.printKey();
+    }
+
     private static class Key {
         private int openKey;
         private int closeKey;
@@ -69,6 +74,11 @@ public class RSA {
             while((primeNumber2=randomPrimeNumber(primeNumberMax))==(primeNumber1 = randomPrimeNumber(primeNumberMax)) || primeNumber1*primeNumber2<44);
             OpenKeyCalculation(primeNumber1, primeNumber2);
             CloseKeyCalculation(primeNumber1, primeNumber2);
+        }
+        private void printKey()
+        {
+            System.out.println("Open: "+ openKey+" " + keyPart2);
+            System.out.println("Close: "+closeKey + " "+ keyPart2);
         }
 
         private void OpenKeyCalculation(int number1, int number2){

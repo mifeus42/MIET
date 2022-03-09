@@ -34,12 +34,9 @@ public class ReaderBMP {
     }
 
     public void decodeTextInBMP() {
-        RandomAccessFile randomAccessFileBMP = null;
-        FileOutputStream fout = null;
-        try{
-            File contentFile = new File("src\\resources\\decode" + fileBMP.getName().replaceFirst("[.][^.]+$", ""));
-            fout = new FileOutputStream(contentFile);
-            randomAccessFileBMP = new RandomAccessFile(fileBMP, "r");
+        File contentFile = new File("src\\resources\\decode" + fileBMP.getName().replaceFirst("[.][^.]+$", ""));
+        try(RandomAccessFile randomAccessFileBMP = new RandomAccessFile(fileBMP, "r");
+            FileOutputStream fout =new FileOutputStream(contentFile) ){
             randomAccessFileBMP.seek(byteOffset);
             int textBuffer;
             do{
@@ -58,25 +55,11 @@ public class ReaderBMP {
         } catch (IOException e){
             e.printStackTrace();
         }
-        finally {
-            try {
-                if (randomAccessFileBMP != null) {
-                    randomAccessFileBMP.close();
-                }
-                if (fout != null) {
-                    fout.close();
-                }
-            }catch (IOException e){
-                e.printStackTrace();
-            }
-        }
     }
 
     public void encodeTextInBMP(String content) {
-        RandomAccessFile randomAccessFileBMP = null;
-        try{
+        try( RandomAccessFile randomAccessFileBMP = new RandomAccessFile(fileBMP, "rw"); ){
             byte[] bytesContent = content.getBytes(StandardCharsets.UTF_8);
-            randomAccessFileBMP = new RandomAccessFile(fileBMP, "rw");
             randomAccessFileBMP.seek(byteOffset);
             for (byte byteContent : bytesContent) {
                 for (int j = 0; j < 4; j++) {
@@ -95,15 +78,6 @@ public class ReaderBMP {
             System.out.println("File was encoding");
         } catch (IOException e){
             e.printStackTrace();
-        }
-        finally {
-            try {
-                if (randomAccessFileBMP != null) {
-                    randomAccessFileBMP.close();
-                }
-            }catch (IOException e){
-                e.printStackTrace();
-            }
         }
     }
 }

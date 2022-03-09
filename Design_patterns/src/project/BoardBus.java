@@ -15,14 +15,14 @@ public class BoardBus extends BoardAnyCar{
     @Override
     protected void letBoardPassenger() {
         for(int i=0;i<maxPassengers;i++){
-            passengers.add(new Passenger());
+            passengers.add(new BusPassenger());
         }
     }
     @Override
     public void info() {
         System.out.println(driver);
         for (Passenger passenger : passengers) {
-            System.out.println(passenger);
+            System.out.println(passenger.name);
         }
     }
 }

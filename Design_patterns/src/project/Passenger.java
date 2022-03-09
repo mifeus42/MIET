@@ -1,5 +1,6 @@
 package project;
 
-public class Passenger {
+public abstract class Passenger {
+    protected String name;
     Passenger(){};
 }
