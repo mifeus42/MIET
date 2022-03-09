@@ -2,6 +2,7 @@ package project;
 
 
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
         byte[] tmpEncode = blowFish.encode(content.getBytes(StandardCharsets.UTF_8));
         byte[] tmpDecode = blowFish.decode(tmpEncode);
 
+        System.out.println(Arrays.toString(tmpEncode));
         System.out.println(new String(tmpDecode).replaceFirst("^\0*", ""));
     }
 }
