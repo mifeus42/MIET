@@ -7,6 +7,7 @@ public class Director {
         transportBuilder.setMaxPassenger();
         transportBuilder.buildChildChair();
         transportBuilder.buildPassengers();
+        transportBuilder.buildFood();
         return transportBuilder.getTransport();
     }
 

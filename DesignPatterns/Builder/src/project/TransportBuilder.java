@@ -11,6 +11,7 @@ public class TransportBuilder {
     public void buildPassengers(){}
     public void buildDriver(){}
     public void buildChildChair(){}
+    public void buildFood(){}
 
     public Transport getTransport(){
         return transport;
