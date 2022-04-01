@@ -1,25 +1,20 @@
 package com.example.proxy;
 
 import javafx.scene.image.Image;
+import javafx.scene.paint.ImagePattern;
+import javafx.scene.shape.Rectangle;
 
 public class RealImage {
-    private double height;
-    private double width;
     private Image image;
 
     RealImage(Image image){
         this.image = image;
-        height = image.getHeight();
-        width = image.getWidth();
     }
 
-    public double getHeight() {
-        return height;
+    public void draw(Rectangle rectangle){
+        rectangle.setFill(new ImagePattern(image));
     }
 
-    public double getWidth() {
-        return width;
-    }
 
     public Image getImage() {
         return image;

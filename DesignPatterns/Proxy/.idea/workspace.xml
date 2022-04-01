@@ -5,93 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc0c9c7-8dd6-4bb2-9a05-b0aa2aec865d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/HyphenCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/ICorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/MainCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/MultiPageTransferCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/MultiSpaceCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/OddSpaceCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/QuotesCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/TabulatorCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/resources/com/example/interpreter/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/AcademicPerformance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Cathedra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Deanery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/IObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Observer/src/project/SubjectSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/proxy/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interpreter/Interpreter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interpreter/Interpreter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

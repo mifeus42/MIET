@@ -5,42 +5,20 @@ import javafx.scene.shape.Rectangle;
 
 public class ProxyImage {
 
-    private double height;
-    private double width;
-    private double x;
-    private double y;
-    public Rectangle rectangle;
+    private Image image;
+    public Rectangle rectangleImage;
     private RealImage realImage;
 
     ProxyImage(Image image){
-        x = 100;
-        y = 100;
-        height = image.getHeight();
-        width = image.getWidth();
-        rectangle = new Rectangle(x,y,image.getWidth(),image.getHeight());
+        this.image = image;
+        rectangleImage = new Rectangle(100,100,image.getWidth(),image.getHeight());
     }
 
-    public double getWidth() {
-        return width;
+    public void draw(){
+        if(realImage == null){
+            realImage = new RealImage(image);
+        }
+        realImage.draw(rectangleImage);
     }
 
-    public double getHeight() {
-        return height;
-    }
-
-    public double getX() {
-        return x;
-    }
-
-    public double getY() {
-        return y;
-    }
-
-    public void setX(double x) {
-        this.x = x;
-    }
-
-    public void setY(double y) {
-        this.y = y;
-    }
 }
