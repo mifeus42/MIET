@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fc0c9c7-8dd6-4bb2-9a05-b0aa2aec865d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/HyphenCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/ICorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/MainCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/MultiPageTransferCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/MultiSpaceCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/OddSpaceCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/QuotesCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/com/example/interpreter/TabulatorCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interpreter/src/main/resources/com/example/interpreter/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/AcademicPerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Cathedra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Deanery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/IObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Observer/src/project/SubjectSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/proxy/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interpreter/Interpreter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interpreter/Interpreter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="27CmLdwJZcT0O4vC2TwtzheFLUQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interpreter" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.proxy.HelloApplication" />
+      <module name="Proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fc0c9c7-8dd6-4bb2-9a05-b0aa2aec865d" name="Changes" comment="" />
+      <created>1648832389317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648832389317</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
