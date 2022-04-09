@@ -11,11 +11,30 @@ public class Main {
 
         AcademicPerformance academicPerformance = new AcademicPerformance(groups);
         Professor mathProfessor = new Professor(academicPerformance);
+        Professor philosophyProfessor = new Professor(academicPerformance);
+        Professor professor = new Professor(academicPerformance);
         Deanery deanery = new Deanery(academicPerformance);
         Cathedra cathedra = new Cathedra(deanery);
 
-        mathProfessor.fillSheet();
 
+        System.out.println("\n");
+        mathProfessor.fillSheet();
+        for (Group group: academicPerformance.getGroups()) {
+            System.out.println(group);
+            System.out.println(academicPerformance.getSheetMap().get(group).getSheet());
+        }
+
+        System.out.println("\n");
+        philosophyProfessor.academicPerformance.dateLastFilling = mathProfessor.academicPerformance.dateLastFilling.minusDays(10);
+        philosophyProfessor.fillSheet();
+        for (Group group: academicPerformance.getGroups()) {
+            System.out.println(group);
+            System.out.println(academicPerformance.getSheetMap().get(group).getSheet());
+        }
+
+        System.out.println("\n");
+        professor.academicPerformance.dateLastFilling = mathProfessor.academicPerformance.dateLastFilling.plusDays(10);
+        professor.fillSheet();
         for (Group group: academicPerformance.getGroups()) {
             System.out.println(group);
             System.out.println(academicPerformance.getSheetMap().get(group).getSheet());

@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc0c9c7-8dd6-4bb2-9a05-b0aa2aec865d" name="Changes" comment="">
+    <list default="true" id="6fc0c9c7-8dd6-4bb2-9a05-b0aa2aec865d" name="Changes" comment="do labs">
+      <change afterPath="$PROJECT_DIR$/../Composite/src/project/AircraftDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Aviator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Aviator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/BusinessClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/BusinessClassPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/EcoClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/EcoClassPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/PremiumClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/PremiumClassPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Stuart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Stuart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/src/project/AcademicPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/src/project/AcademicPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/src/project/Deanery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/src/project/Deanery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +38,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="27CmLdwJZcT0O4vC2TwtzheFLUQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interpreter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -68,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1648832389317</updated>
     </task>
+    <task id="LOCAL-00001" summary="do labs">
+      <created>1648855659052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648855659052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +109,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="do labs" />
+    <option name="LAST_COMMIT_MESSAGE" value="do labs" />
   </component>
 </project>

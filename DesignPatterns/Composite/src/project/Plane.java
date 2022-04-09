@@ -2,9 +2,9 @@ package project;
 
 import java.util.ArrayList;
 
-public class Plane extends Passenger{
+public class Plane extends AircraftDivision {
     private int maxBaggageWeight;
-    private ArrayList<Passenger> passengers = new ArrayList<>();
+    public ArrayList<AircraftDivision> passengers = new ArrayList<>();
 
     Plane(int maxBaggageWeight) {
         this.maxBaggageWeight = maxBaggageWeight;
@@ -26,16 +26,22 @@ public class Plane extends Passenger{
         }
 
         @Override
-        public void addPassenger(Passenger passenger) {
+        public void addPassenger(AircraftDivision passenger) {
             passengers.add(passenger);
             baggageWeight+=passenger.getBaggageWeight();
         }
 
     @Override
     public void printPassenger(){
-        for (Passenger passenger: passengers) {
+        for (AircraftDivision passenger: passengers) {
             System.out.println(passenger.getClass());
             passenger.printPassenger();
         }
+    }
+
+    @Override
+    public void removePassenger(AircraftDivision passenger){
+        baggageWeight-=passenger.baggageWeight;
+        passengers.remove(passenger);
     }
     }

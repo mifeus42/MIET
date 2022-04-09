@@ -8,7 +8,7 @@ import java.util.Map;
 public class AcademicPerformance implements IObservable{
     private ArrayList<Group> groups;
     private Map<Group,SubjectSheet> sheetMap;
-    private LocalDate dateLastFilling;
+    public LocalDate dateLastFilling;
 
     ArrayList<IObserver> observers;
 

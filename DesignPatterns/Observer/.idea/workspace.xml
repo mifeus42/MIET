@@ -2,36 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cb1d93b-65b9-452e-82fc-d23d839e040d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/AcademicPerformance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Cathedra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Deanery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/IObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/SubjectSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/src/project/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proxy/src/project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/project/AircraftDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Aviator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Aviator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/BusinessClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/BusinessClassPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/EcoClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/EcoClassPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/PremiumClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/PremiumClassPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Stuart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Stuart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/AcademicPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/AcademicPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Deanery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Deanery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proxy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proxy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proxy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proxy/Proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proxy/Proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proxy/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interpreter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proxy" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">

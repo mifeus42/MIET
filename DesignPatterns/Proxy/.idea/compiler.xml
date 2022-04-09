@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Proxy" target="17" />
+      <module name="Proxy" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
