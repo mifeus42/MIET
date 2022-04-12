@@ -1,7 +1,5 @@
 package project;
 
-import java.util.ArrayList;
-
 public class BoardBus extends BoardAnyCar{
     public BoardBus(){
         maxPassengers = 30;

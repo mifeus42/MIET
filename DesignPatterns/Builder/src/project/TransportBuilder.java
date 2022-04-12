@@ -7,11 +7,10 @@ public class TransportBuilder {
     }
 
     public void createTransport(){}
-    public void setMaxPassenger(){}
+    public void buildMaxPassenger(){}
     public void buildPassengers(){}
     public void buildDriver(){}
     public void buildChildChair(){}
-    public void buildFood(){}
 
     public Transport getTransport(){
         return transport;

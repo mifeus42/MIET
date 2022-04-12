@@ -2,7 +2,7 @@ package project;
 
 public class BusPassenger extends Passenger{
     BusPassenger(){
-        name = "Вася";
+        name = "Пассажир автобуса";
     }
     public String getName(){
         return name;

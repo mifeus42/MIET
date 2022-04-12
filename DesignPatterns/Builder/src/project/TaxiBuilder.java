@@ -19,7 +19,7 @@ public class TaxiBuilder extends TransportBuilder{
     }
 
     @Override
-    public void setMaxPassenger() {
+    public void buildMaxPassenger() {
         transport.setMaxPassengers(4);
     }
 

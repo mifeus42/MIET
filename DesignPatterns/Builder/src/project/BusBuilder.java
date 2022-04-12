@@ -14,7 +14,7 @@ public class BusBuilder extends TransportBuilder {
     }
 
     @Override
-    public void setMaxPassenger() {
+    public void buildMaxPassenger() {
         transport.setMaxPassengers(30);
     }
 

@@ -6,7 +6,6 @@ public class Transport {
     private Driver driver;
     private boolean isGotChildChair;
     private int maxPassengers;
-    private ArrayList<Food> foods= new ArrayList<>();
     private ArrayList<Passenger> passengers = new ArrayList<>();
 
     public void setDriver(Driver driver) {
@@ -30,9 +29,6 @@ public class Transport {
         return isGotChildChair;
     }
 
-    public void setFoods(ArrayList<Food> foods) {
-        this.foods = foods;
-    }
 
     public void info(){
         System.out.println(driver);
@@ -40,8 +36,5 @@ public class Transport {
             System.out.println(passenger);
         }
         System.out.println(isGotChildChair);
-            for (Food food : foods) {
-                System.out.println(food);
-            }
     }
 }

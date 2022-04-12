@@ -1,6 +1,5 @@
 package project;
 
-import java.net.Inet4Address;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -9,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = Integer.parseInt(scanner.nextLine());
-        int M= Integer.parseInt(scanner.nextLine());
+        int M = Integer.parseInt(scanner.nextLine());
 
         ArrayList<BoardBus> boardBusList = new ArrayList<>();
         ArrayList<BoardTaxi> boardTaxiList = new ArrayList<>();

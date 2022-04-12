@@ -18,7 +18,7 @@ public class Deanery implements IObserver, IObservable{
     @Override
     public void update(Object obj) {
         LocalDate dateFilling = (LocalDate) obj;
-        LocalDate dateCurrent = LocalDate.now();
+        LocalDate dateCurrent = LocalDate.now().plusDays(8);
 
         if(dateCurrent.isAfter(dateFilling.plusDays(7))){
             notifyObservers();

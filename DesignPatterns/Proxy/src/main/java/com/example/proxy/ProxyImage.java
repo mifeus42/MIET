@@ -3,7 +3,7 @@ package com.example.proxy;
 import javafx.scene.image.Image;
 import javafx.scene.shape.Rectangle;
 
-public class ProxyImage {
+public class ProxyImage implements IImage {
 
     private Image image;
     public Rectangle rectangleImage;
@@ -16,9 +16,9 @@ public class ProxyImage {
 
     public void draw(){
         if(realImage == null){
-            realImage = new RealImage(image);
+            realImage = new RealImage(image, rectangleImage);
         }
-        realImage.draw(rectangleImage);
+        realImage.draw();
     }
 
 }

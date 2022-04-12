@@ -22,6 +22,7 @@ public class BusinessClassPassenger extends AircraftDivision {
 
     @Override
     public void removePassenger(AircraftDivision passenger) {
+        baggageWeight-=passenger.baggageWeight;
         passengers.remove(passenger);
     }
 

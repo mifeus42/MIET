@@ -18,18 +18,19 @@ public class Plane extends AircraftDivision {
                 break;
             }
         }
-            while(baggageWeight > maxBaggageWeight){
-                baggageWeight-=tmpPassenger.getBaggageWeight();
-                tmpPassenger.removeBaggage();
-                baggageWeight+=tmpPassenger.getBaggageWeight();
-            }
+        while(baggageWeight > maxBaggageWeight){
+            baggageWeight-=tmpPassenger.getBaggageWeight();
+            tmpPassenger.removeBaggage();
+            baggageWeight+=tmpPassenger.getBaggageWeight();
         }
+    }
 
-        @Override
-        public void addPassenger(AircraftDivision passenger) {
-            passengers.add(passenger);
-            baggageWeight+=passenger.getBaggageWeight();
-        }
+
+    @Override
+    public void addPassenger(AircraftDivision passenger) {
+        passengers.add(passenger);
+        baggageWeight+=passenger.getBaggageWeight();
+    }
 
     @Override
     public void printPassenger(){
@@ -40,8 +41,20 @@ public class Plane extends AircraftDivision {
     }
 
     @Override
-    public void removePassenger(AircraftDivision passenger){
-        baggageWeight-=passenger.baggageWeight;
-        passengers.remove(passenger);
+    public void removePassenger(AircraftDivision passengerRemove){
+        for(AircraftDivision passengerClass: passengers) {
+            if(passengerRemove != passengerClass) {
+                if (passengerClass.getPassengers() != null) {
+                    baggageWeight-=passengerRemove.baggageWeight;
+                    passengerClass.removePassenger(passengerRemove);
+                    break;
+                }
+            }
+            else {
+                baggageWeight-=passengerRemove.baggageWeight;
+                passengers.remove(passengerRemove);
+                break;
+            }
+        }
     }
-    }
+}
