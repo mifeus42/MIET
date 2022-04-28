@@ -5,46 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc0c9c7-8dd6-4bb2-9a05-b0aa2aec865d" name="Changes" comment="do labs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/IImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/BusBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/BusBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/PlaneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/PlaneBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/TaxiBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/TaxiBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Transport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/TransportBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/TransportBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/BusBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/BusBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/Food.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/PlaneBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/PlaneBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/TaxiBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/TaxiBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder/src/project/TransportBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/TransportBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/out/production/Composite/project/BusinessClassPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/out/production/Composite/project/BusinessClassPassenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/out/production/Composite/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/out/production/Composite/project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/out/production/Composite/project/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/out/production/Composite/project/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/out/production/Composite/project/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/out/production/Composite/project/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/src/project/BusinessClassPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/BusinessClassPassenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composite/src/project/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composite/src/project/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/out/production/Design_patterns/project/BusPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/out/production/Design_patterns/project/BusPassenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/out/production/Design_patterns/project/TaxiPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/out/production/Design_patterns/project/TaxiPassenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/src/project/BoardBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/src/project/BoardBus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/src/project/BoardTaxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/src/project/BoardTaxi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/src/project/BusPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/src/project/BusPassenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/src/project/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Factory/src/project/TaxiPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Factory/src/project/TaxiPassenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/123.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/DriveCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/DriveCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/out/production/Builder/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Builder/out/production/Builder/project/PlaneBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Builder/src/project/DriveCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/DriveCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Builder/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Builder/src/project/PlaneBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Observer/out/production/Observer/project/Deanery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/out/production/Observer/project/Deanery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Observer/out/production/Observer/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/out/production/Observer/project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Observer/src/project/Deanery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/src/project/Deanery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Observer/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/src/project/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/RealImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proxy/ProxyImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proxy/ProxyImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proxy/RealImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proxy/RealImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SiP-D9vD8l4 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SiP-D9vD8l4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XeHQYdHhMbE (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XeHQYdHhMbE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jyl0cPC6K3I (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jyl0cPC6K3I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xPPcZ0ooTS0 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xPPcZ0ooTS0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SiP-D9vD8l4 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SiP-D9vD8l4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XeHQYdHhMbE (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XeHQYdHhMbE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proxy/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proxy/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jyl0cPC6K3I (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jyl0cPC6K3I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xPPcZ0ooTS0 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xPPcZ0ooTS0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/.vs/Labs/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/.vs/Labs/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/.vs/Labs/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/.vs/Labs/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/.vs/Labs/v16/ipch/AutoPCH/b7a3bb4f62669362/TASK_4.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/.vs/Labs/v16/ipch/AutoPCH/b7a3bb4f62669362/TASK_4.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/task_4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/task_4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/task_1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/task_4.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/task_4.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/Lab4/x64/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/x64/Debug/Lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/x64/Debug/Lab4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/x64/Debug/Lab4.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/x64/Debug/Lab4.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/x64/Debug/Lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/x64/Debug/Lab4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPI/Labs/ПИН-34_Ромашкин_лаб-4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPI/Labs/ПИН-34_Ромашкин_лаб-4.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -79,6 +84,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />

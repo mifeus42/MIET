@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f47dfe67-acb1-4277-ad9d-45915b64fb92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Builder/out/production/Builder/project/DriveCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Builder/out/production/Builder/project/DriveCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Builder/out/production/Builder/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Builder/out/production/Builder/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Builder/out/production/Builder/project/PlaneBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Builder/src/project/DriveCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Builder/src/project/DriveCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Builder/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Builder/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Builder/src/project/PlaneBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Composite/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Composite/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Observer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proxy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proxy/src/main/java/com/example/proxy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proxy/src/main/java/com/example/proxy/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proxy/target/classes/com/example/proxy/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proxy/target/classes/com/example/proxy/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/.vs/Labs/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/.vs/Labs/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/.vs/Labs/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/.vs/Labs/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/.vs/Labs/v16/ipch/AutoPCH/b7a3bb4f62669362/TASK_4.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/.vs/Labs/v16/ipch/AutoPCH/b7a3bb4f62669362/TASK_4.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/task_4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/task_4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/Lab4.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/task_1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/task_4.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/task_4.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/Lab4/x64/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/x64/Debug/Lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/x64/Debug/Lab4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/x64/Debug/Lab4.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/x64/Debug/Lab4.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/x64/Debug/Lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/x64/Debug/Lab4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MPI/Labs/ПИН-34_Ромашкин_лаб-4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MPI/Labs/ПИН-34_Ромашкин_лаб-4.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="289ixszxpBDXbA2hgR7uwd7uumX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f47dfe67-acb1-4277-ad9d-45915b64fb92" name="Changes" comment="" />
+      <created>1650635451615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650635451615</updated>
+    </task>
+    <servers />
+  </component>
+</project>

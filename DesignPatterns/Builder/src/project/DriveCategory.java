@@ -1,3 +1,3 @@
 package project;
 
-public enum DriveCategory {B,D, AVIATOR}
+public enum DriveCategory {B,D}
