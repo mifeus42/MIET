@@ -30,7 +30,7 @@ public class HelloApplication extends Application {
         group = new Group(hBox);
 
         createBoxButton.setOnAction(e -> {
-            proxyImage = new ProxyImage(new Image("New Piskel (8).png"));
+            proxyImage = new ProxyImage(new Image("Im2.jpg"));
             group.getChildren().add(proxyImage.rectangleImage);
 
             proxyImage.rectangleImage.setOnMouseDragged(b -> {
