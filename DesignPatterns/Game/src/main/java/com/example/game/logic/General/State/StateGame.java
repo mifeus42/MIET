@@ -50,6 +50,7 @@ public class StateGame implements IObserver, IState {
     public void Update(Object object) {
         if(object.getClass() == Player.class){
             board.changeState(new StateLose(board, player.getScore()));
+            Data.SCORE_RECORD = Math.max(player.getScore(), Data.SCORE_RECORD);
             timeline.stop();
             board.draw();
         }
@@ -112,7 +113,7 @@ public class StateGame implements IObserver, IState {
 
         player.move();
         player.draw(graphicsContext);
-        if(shootTime % 30 == 0) {
+        if(shootTime % 40 == 0) {
             projectileArray.add(player.shoot());
         }
 

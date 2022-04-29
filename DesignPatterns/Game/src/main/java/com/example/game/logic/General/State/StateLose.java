@@ -20,7 +20,7 @@ public class StateLose implements IState {
         GraphicsContext graphicsContext = board.getGraphicsContext2D();
         graphicsContext.setFill(Color.WHITE);
         graphicsContext.setFont(Font.font(25));
-        graphicsContext.fillText("Поздравляем! Вы набрали " + result + " очков" , board.getWidth()/2-150, board.getHeight()/2-100);
+        graphicsContext.fillText("Поздравляем! Вы набрали " + result + " очков\nРекорд " + result , board.getWidth()/2-150, board.getHeight()/2-100);
         board.getScene().setOnKeyPressed(e -> {
             switch (e.getCode()) {
                 case ENTER -> {

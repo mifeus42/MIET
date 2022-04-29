@@ -1,13 +1,7 @@
 package com.example.game.logic.CharacterLogic;
 
 import com.example.game.Data;
-import com.example.game.logic.General.ScreenObject;
-import com.example.game.logic.GunLogic.Gun;
-import com.example.game.logic.General.Position;
 import com.example.game.logic.General.Speed;
-import javafx.scene.image.Image;
-
-import java.util.ArrayList;
 
 public class Player extends Character {
     private int score;
@@ -26,9 +20,10 @@ public class Player extends Character {
     }
 
     @Override
-    public boolean move(ArrayList<Character> characters) {
-        super.move(characters);
-        return true;
+    public void move() {
+        if(!(position.x <= 0 && speed.x <0 || position.x + Data.PLAYER_IMAGE.getWidth() > Data.BOARD_WIDTH && speed.x >0)){
+            position.x += speed.x;
+        }
     }
 
     public void setSpeed(double speedX) {

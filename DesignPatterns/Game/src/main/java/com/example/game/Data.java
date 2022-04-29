@@ -13,6 +13,7 @@ public class Data {
     static public final double BOARD_WIDTH = 1000;
     static public final double BOARD_HEIGHT = 1000;
     static public final double SPAWN_ENEMY_GAP = 15;
+    static public int SCORE_RECORD = 0;
 
     //Player
     static public final Image PLAYER_IMAGE = new Image("Player_white.png");
