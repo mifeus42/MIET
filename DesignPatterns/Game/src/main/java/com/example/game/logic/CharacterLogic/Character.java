@@ -16,6 +16,11 @@ public class Character extends MovingObject implements IObservable {
     private int health;
     protected Gun gun;
 
+    protected Character(){
+        super();
+        observers = new ArrayList<>();
+    }
+
     public Character(Image image, Position position, Speed speed, int health, Gun gun){
         super(image, position, speed);
         this.health = health;
@@ -36,6 +41,10 @@ public class Character extends MovingObject implements IObservable {
 
     public boolean checkDie(){
         return health <= 0;
+    }
+
+    public int getHealth() {
+        return health;
     }
 
     @Override

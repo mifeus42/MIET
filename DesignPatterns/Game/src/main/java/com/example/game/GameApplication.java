@@ -30,7 +30,7 @@ public class GameApplication extends Application {
         stage.setTitle("PING-PONG");
         stage.show();
 
-        timeline = new Timeline(new KeyFrame(Duration.millis(5), e -> run(graphicsContext)));
+        timeline = new Timeline(new KeyFrame(Duration.millis(14), e -> run(graphicsContext)));
         timeline.setCycleCount(Timeline.INDEFINITE);
 
         canvas.getScene().setOnKeyPressed(e -> {
@@ -51,7 +51,7 @@ public class GameApplication extends Application {
 
     private void run(GraphicsContext graphicsContext) {
         setBackEnd(graphicsContext);
-        game.playGame(graphicsContext);
+        game.draw(graphicsContext);
     }
 
     private void setBackEnd(GraphicsContext graphicsContext){

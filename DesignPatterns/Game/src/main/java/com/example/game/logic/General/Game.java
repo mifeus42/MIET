@@ -1,49 +1,73 @@
 package com.example.game.logic.General;
 
-import com.example.game.logic.CharacterLogic.EnemyRegular;
-import com.example.game.logic.CharacterLogic.Player;
-import com.example.game.Data;
+import com.example.game.logic.CharacterLogic.*;
+import com.example.game.logic.CharacterLogic.Character;
+import com.example.game.logic.GunLogic.ProjectileLogic.DefaultPlayerProjectile;
 import com.example.game.logic.GunLogic.ProjectileLogic.IProjectile;
 import com.example.game.logic.ObserverInterface.IObserver;
 import javafx.scene.canvas.GraphicsContext;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Game implements IObserver {
     private Player player;
-    private ArrayList<EnemyRegular> enemyArray;
-    private ArrayList<IProjectile> projectileArray;
+    private Enemies enemies;
+    private final ArrayList<IProjectile> projectileArray;
+
+    private int shootTime = 0;
+    private final ArrayList<Character> playerScreenObject;
 
     public Game(){
-        enemyArray = new ArrayList<>();
         projectileArray = new ArrayList<>();
+        playerScreenObject = new ArrayList<>();
         setUp();
     }
 
     private void setUp(){
-        player = new Player(Data.PLAYER_IMAGE, Data.PLAYER_SPAWN_POSITION, new Speed(0,0), Data.PLAYER_HEALTH, Data.PLAYER_GUN);
-        for(int i = 0; i < Data.ENEMY_REGULAR_COUNT; i++){
-            enemyArray.add(new EnemyRegular(Data.ENEMY_REGULAR_IMAGE, new Position((i * (Data.ENEMY_REGULAR_WIDTH + Data.SPAWN_ENEMY_GAP)), 0), new Speed(Data.ENEMY_REGULAR_SPEED_X, Data.ENEMY_REGULAR_SPEED_Y), Data.ENEMY_REGULAR_HEALTH, Data.ENEMY_REGULAR_GUN));
-            enemyArray.get(i).RegisterObserver(this);
-        }
+        player = new Player();
+        player.RegisterObserver(this);
+        playerScreenObject.add(player);
+        enemies = new Enemies(this);
+        Boss boss = new Boss();
+        boss.RegisterObserver(this);
+        enemies.addEnemy(boss);
     }
 
     public void startGame(GraphicsContext graphicsContext){
-        playGame(graphicsContext);
+        draw(graphicsContext);
     }
 
-    public void playGame(GraphicsContext graphicsContext){
-        for(IProjectile projectile : projectileArray){
-            projectile.move();
-            graphicsContext.drawImage(projectile.getImage(), projectile.position.x, projectile.position.y);
+    public void draw(GraphicsContext graphicsContext){
+        graphicsContext.fillText("Score:" + player.getScore() + "\n" + "Health: " +  player.getHealth(), 20, 40);
+        ArrayList<Character> enemyScreenObject = new ArrayList<>(enemies.getEnemies());
+
+        Iterator<IProjectile> projectileIterator = projectileArray.iterator();
+        while (projectileIterator.hasNext()){
+            IProjectile projectile = projectileIterator.next();
+            if(projectile.getClass() == DefaultPlayerProjectile.class){
+                if(!projectile.move(enemyScreenObject)){
+                    projectileIterator.remove();
+                }
+            }
+            else if(!projectile.move(playerScreenObject)){
+                projectileIterator.remove();
+            }
+            projectile.draw(graphicsContext);
         }
+
         player.move();
-        graphicsContext.drawImage(player.getImage(), player.position.x, player.position.y);
-        for(EnemyRegular enemyRegular : enemyArray){
-            projectileArray.add(enemyRegular.shoot());
-            enemyRegular.move();
-            graphicsContext.drawImage(enemyRegular.getImage(), enemyRegular.position.x, enemyRegular.position.y);
+        player.draw(graphicsContext);
+        if(shootTime % 30 == 0) {
+            projectileArray.add(player.shoot());
         }
-        projectileArray.add(player.shoot());
+
+        enemies.move();
+        enemies.draw(graphicsContext);
+        if(shootTime % 50 == 0) {
+            projectileArray.addAll(enemies.shootAll());
+        }
+        shootTime++;
     }
 
     public Player getPlayer() {
@@ -53,12 +77,18 @@ public class Game implements IObserver {
     @Override
     public void Update(Object object) {
         if(object.getClass() == Player.class){
-            System.out.println("loh");
+            System.out.println("!!!!");
         }
-        else{
-            EnemyRegular enemy = (EnemyRegular) object;
+        else {
+            IEnemy enemy = (IEnemy) object;
             player.increaseScore(enemy.getGiftScore());
-            enemyArray.remove(enemy);
+            enemies.removeEnemy(enemy);
+            if(enemies.getEnemies().isEmpty()){
+                enemies = new Enemies(this);
+                Boss boss = new Boss();
+                boss.RegisterObserver(this);
+                enemies.addEnemy(boss);
+            }
         }
     }
 }

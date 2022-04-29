@@ -1,15 +1,19 @@
 package com.example.game.logic.CharacterLogic;
 
+import com.example.game.Data;
+import com.example.game.logic.General.ScreenObject;
 import com.example.game.logic.GunLogic.Gun;
 import com.example.game.logic.General.Position;
 import com.example.game.logic.General.Speed;
 import javafx.scene.image.Image;
 
+import java.util.ArrayList;
+
 public class Player extends Character {
     private int score;
 
-    public Player(Image image, Position position, Speed speed, int health, Gun gun){
-        super(image, position, speed, health, gun);
+    public Player(){
+        super(Data.PLAYER_IMAGE, Data.PLAYER_SPAWN_POSITION, new Speed(0, 0), Data.PLAYER_HEALTH, Data.PLAYER_GUN);
         score = 0;
     }
 
@@ -22,8 +26,8 @@ public class Player extends Character {
     }
 
     @Override
-    public boolean move() {
-        super.move();
+    public boolean move(ArrayList<Character> characters) {
+        super.move(characters);
         return true;
     }
 
