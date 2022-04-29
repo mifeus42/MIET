@@ -9,6 +9,7 @@ import javafx.scene.image.Image;
 
 public class Data {
     //General
+    static public final Image BOARD_IMAGE = new Image("SpaceX.png");
     static public final double BOARD_WIDTH = 1000;
     static public final double BOARD_HEIGHT = 1000;
     static public final double SPAWN_ENEMY_GAP = 15;
@@ -47,11 +48,11 @@ public class Data {
     //Projectile
     static public final double PROJECTILE_SPEED_Y = 3;
 
-    static public final Image PROJECTILE_PLAYER_IMAGE = new Image("Player_projectile.png");
+    static public final Image PROJECTILE_PLAYER_IMAGE = new Image("Player_projectileX.png");
     static public final int PROJECTILE_PLAYER_DAMAGE = 1;
     static public final Image PROJECTILE_ENEMY_BOSS_IMAGE = new Image("Enemy_boss_projectile_x3.png");
     static public final int PROJECTILE_ENEMY_REGULAR_DAMAGE = 1;
-    static public final Image PROJECTILE_ENEMY_REGULAR_IMAGE = new Image("Enemy_regular_projectile.png");
+    static public final Image PROJECTILE_ENEMY_REGULAR_IMAGE = new Image("Enemy_regular_projectileX4.png");
     static public final int PROJECTILE_ENEMY_BOSS_DAMAGE = 2;
 
 }
